@@ -12,11 +12,11 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'soundcloud',
-    'description' => '',
+    'description' => 'An Extension to embed Soundcloud Iframe without users having to use the HTML Content Element',
     'category' => 'plugin',
-    'author' => '',
-    'author_email' => '',
-    'state' => 'alpha',
+    'author' => 'Tim Jonas Pflaum',
+    'author_email' => 'tim-jonas.pflaum@liebenzell.org',
+    'state' => 'beta',
     'internal' => '',
     'uploadfolder' => '0',
     'createDirs' => '',
