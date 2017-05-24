@@ -1,0 +1,32 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "7.6.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "soundcloud",
+        "name": "soundcloud",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "Yahatix"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-05-10 09:28",
+        "extension_builder_version": "8.6.0",
+        "be_user": " (1)"
+    }
+}

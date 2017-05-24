@@ -1,0 +1,18 @@
+{
+    "name": "yahatix/soundcloud",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "author": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yahatix\\Soundcloud\\": "Classes"
+        }
+    },
+    "replace": {
+       "soundcloud": "self.version",
+       "typo3-ter/soundcloud": "self.version"
+    }
+}
