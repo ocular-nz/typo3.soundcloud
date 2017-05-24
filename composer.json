@@ -1,7 +1,7 @@
 {
     "name": "yahatix/soundcloud",
     "type": "typo3-cms-extension",
-    "description": "",
+    "description": "Soundcloud set as Content Element instead of HTML Element",
     "author": [],
     "require": {
         "typo3/cms-core": "^8.7.1"
