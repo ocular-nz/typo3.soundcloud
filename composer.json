@@ -4,7 +4,7 @@
     "description": "Soundcloud set as Content Element instead of HTML Element",
     "author": [],
     "require": {
-        "typo3/cms-core": "^8.7.1"
+        "typo3/cms-core": "^7.6"
     },
     "autoload": {
         "psr-4": {
