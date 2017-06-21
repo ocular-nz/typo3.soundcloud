@@ -8,22 +8,25 @@
 
 ---
 conf.py:
-  copyright: 2012-2015
-  project: Extension Name (Français)
-  version: x.y
-  release: x.y.z
+  copyright: 2017
+  project: soundcloud
+  version: 1.1.0
+  release: 1.1.0
   intersphinx_mapping:
     t3tsref:
-    - https://docs.typo3.org/typo3cms/TyposcriptReference/
+    - http://docs.typo3.org/typo3cms/TyposcriptReference/
     - null
   latex_documents:
   - - Index
-    - <extension_key>.tex
-    - Extension Name (Français)
-    - Your Name
+    - soundcloud.tex
+    - soundcloud
+    -
     - manual
   latex_elements:
     papersize: a4paper
     pointsize: 10pt
-    preamble: \usepackage{typo3}
+    preamble: \usepackage
+  html_theme_options:
+    github_repository: https://github.com/Yahatix/typo3.soundcloud
+    github_branch: latest
 ...
