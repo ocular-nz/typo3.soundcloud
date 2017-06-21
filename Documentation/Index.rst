@@ -14,7 +14,7 @@ soundcloud
 .. only:: html
 
 	:Classification:
-		soundcloud_helper
+		soundcloud
 
 	:Version:
 		|release|
@@ -25,15 +25,16 @@ soundcloud
 	:Description:
 
 	:Keywords:
-		comma,separated,list,of,keywords
+		soundcloud,sound,file,filetype
 
 	:Copyright:
 		2017
 
 	:Author:
+		Tim Jonas Pflaum
 
 	:Email:
-
+		tim-jonas.pflaum@liebenzell.org
 	:License:
 		This document is published under the Open Content License
 		available from http://www.opencontent.org/opl.shtml
@@ -47,15 +48,10 @@ soundcloud
 	**Table of Contents**
 
 .. toctree::
-	:maxdepth: 3
+	:maxdepth: 5
 	:titlesonly:
+	:glob:
 
 	Introduction/Index
 	User/Index
 	Administrator/Index
-	Configuration/Index
-	Developer/Index
-	KnownProblems/Index
-	ToDoList/Index
-	ChangeLog/Index
-	Links
