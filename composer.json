@@ -1,10 +1,10 @@
 {
-    "name": "yahatix/soundcloud",
+    "name": "ocular-nz/soundcloud",
     "type": "typo3-cms-extension",
     "description": "Soundcloud set as Content Element instead of HTML Element",
     "author": [],
     "require": {
-        "typo3/cms-core": "^7.6.0 || ^8.7.0"
+        "typo3/cms-core": "^7.6.0 || ^8.7.0 || ^9.5.0"
     },
     "autoload": {
         "psr-4": {
