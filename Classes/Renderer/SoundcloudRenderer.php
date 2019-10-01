@@ -99,8 +99,10 @@ class SoundcloudRenderer implements FileRendererInterface
         }
 
         $iframe = $this->getOnlineMediaHelper($file)->getMetaData($orgFile)['html'];
-        preg_match('%playlists\%2F(.*)&%i', $iframe, $src);
-        $src = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/" . $src[1];
+        //preg_match('%playlists\%2F(.*)&%i', $iframe, $src);
+        preg_match('/"(https:\/\/w\.soundcloud\.com\/.*)"/', $iframe, $src);
+        //$src = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/" . $src[1];
+        $src = $src[1];
 
         if ((int)$height > 0) {
             $attributes[] = 'height="' . (int)$height . '"';
