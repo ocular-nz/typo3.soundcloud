@@ -11,3 +11,8 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['FileInfo']['fileExtensionToMimeType']['sound
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['mediafile_ext'] = $GLOBALS['TYPO3_CONF_VARS']['SYS']['mediafile_ext'] . ',soundcloud';
 $rendererRegistry = \TYPO3\CMS\Core\Resource\Rendering\RendererRegistry::getInstance();
 $rendererRegistry->registerRendererClass(\Yahatix\Soundcloud\Renderer\SoundcloudRenderer::class);
+
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\BK2K\BootstrapPackage\Utility\ExternalMediaUtility::class] = array(
+    'className' => \Yahatix\Soundcloud\Utility\ExternalMediaUtility::class
+ );
+ 
